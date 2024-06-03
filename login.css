@@ -1,0 +1,90 @@
+body{
+    display: flex;
+    color: rgb(0, 0, 0);
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url("./images/background.jpg");
+}
+
+.container{
+    height: 50vh;
+    width: 25vw;
+    padding:1.5rem;
+    color: #000000;
+    background-color:rgb(186, 120, 185);
+    font-weight: 400;
+    border-radius: 18px ;
+    box-shadow: 3px 3px 3px 3px rgba(106, 51, 111, 0.548);;
+}
+h3{
+    text-align: center;
+}
+
+.input>input{
+    display: block;
+    border: 2px solid rgba(255, 255, 255, .2);
+    height: 100%;
+    width: 100%;
+    background-color: transparent;
+    border-radius: 40px;
+    margin-top: 0.5rem;
+    margin-bottom: 0.7rem;
+}
+
+.input>input::placeholder {
+    padding-left: 15px;
+}
+
+input:focus
+{
+    border: 1px solid rgb(170, 16, 197);
+    box-shadow: 0 0 3px rgb(170, 16, 197);
+    outline-offset: 0px;
+    outline: none;
+}
+
+input[type='checkbox']:after {
+    accent-color: red;
+  }
+
+button{
+    display: block;
+}
+.remember-forgot{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.have-account{
+    display: flex;
+    justify-content: center;
+}
+
+.svg{
+    position: absolute;
+    right: 0;
+    padding-top: 0.5rem;
+    width: 48%;
+}
+.input{
+    position: relative;
+}
+
+.remember-forgot{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.btn{
+    background-color: rgb(170, 16, 197);
+    border-radius: 40px;
+    margin-bottom: 1rem;
+    border: 2px solid rgba(170, 54, 166, 0.548);
+    box-shadow: 2px 2px 2px 2px rgb(136, 76, 141);
+    height: 13%;
+    width: 100%;
+    font-weight: 600;
+    border-radius: 10px;
+}
